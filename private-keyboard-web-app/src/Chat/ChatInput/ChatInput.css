@@ -1,0 +1,29 @@
+.form-input {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.label-input {
+    padding: 12px 0px;
+    display: block;
+}
+
+.input-message {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
